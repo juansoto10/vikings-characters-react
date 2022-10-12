@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/Character.css';
 
 function Character() {
   return (

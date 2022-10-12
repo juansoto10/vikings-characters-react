@@ -1,0 +1,35 @@
+.character {
+  width: 60%;
+  height: 370px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellowgreen;
+  box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 9%);
+}
+
+.character__img {
+  height: 100%;
+  width: auto;
+}
+
+.character__txt {
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 40px;
+  font-weight: 400;
+}
+
+.character__name {
+  margin-bottom: 25px;
+}
+
+.character__features {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+}
+
+.character__description {
+  font-size: 1.6rem;
+}

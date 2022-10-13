@@ -8,6 +8,7 @@ html {
 }
 body {
   font-size: 1.6rem;
+  background-color: #100F0F;
 }
 
 
@@ -29,12 +30,40 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 h1 {
   max-width: 940px;
-  font-size: 4.6rem;
+  font-family: 'KoHo', sans-serif;
+  font-size: 5.5rem;
   font-weight: 700;
   line-height: 3.7rem;
-  margin: 20px 0 70px 0;
+  margin: 40px 0 50px 0;
+  color: #fff;
+  transition: 0.5s;
+}
+
+@media (min-width: 1300px) {
+  h1:hover {
+    font-size: 5.8rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .main-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  h1 {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 3.5rem;
+    margin: 35px 0 45px;
+  }
 }
